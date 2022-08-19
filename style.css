@@ -1,4 +1,64 @@
 .header{
+	width: 960px;
+	background : #6666cc;
+	margin: 50px auto;
+	padding: 50px;
+	text-align: center;
 	color: #ff0000;
 	font-size:24px;
+	border: 2px solid #ff0000;
+	border-radius: 200px;
+}
+.h1{
+	color: #cc00cc;
+	font-size:24px;
+}
+
+.text{
+	color: #000000;
+	front-size:16px;
+}	
+.link{
+	color: #0000FF;
+	front-size: 16px;
+}
+
+.link:hover {
+	color: #0046b0;
+	text-decoration: underline;
+}
+.feetback{
+	border: 2px solid #ff0000;
+	border-radius: 200px;
+	width: 960px;
+	margin: 50px auto;
+	padding: 50px;
+	text-align: center;
+}
+.container{
+border: 2px solid #ff0000;
+width: 960px;
+font-size:24px;
+}
+.form {
+text-alagn: center;
+}
+.form__input{
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	background: white;
+	width: 400px;
+	border: 1px solid;
+	font-size:14px;
+	padding: 10px 4px;
+}
+
+.form__button{
+	width: 400px;
+	background: black;
+	padding: 10px;
+	font-size:14px;
+	border: 0;
+	color: white;
 }
