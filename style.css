@@ -1,16 +1,37 @@
+body{
+	positionion: relative;
+	height: 100vh;
+}
+
+
+
+body::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
 .header{
 	width: 960px;
-	background : #6666cc;
+	background : #9966ff;
 	margin: 50px auto;
 	padding: 50px;
 	text-align: center;
 	color: #ff0000;
 	font-size:24px;
-	border: 2px solid #ff0000;
+	border: 2px solid #cc0000;
 	border-radius: 200px;
 }
 .h1{
-	color: #cc00cc;
+	color: #000000;
 	font-size:24px;
 }
 
@@ -19,29 +40,32 @@
 	front-size:16px;
 }	
 .link{
-	color: #0000FF;
-	front-size: 16px;
+	color: #000000;
+	front-size: 24px;
 }
 
 .link:hover {
-	color: #0046b0;
+	color: #000000;
 	text-decoration: underline;
 }
 .feetback{
-	border: 2px solid #ff0000;
+	border: 2px solid #000000;
 	border-radius: 200px;
 	width: 960px;
 	margin: 50px auto;
 	padding: 50px;
 	text-align: center;
+	background : #9966ff;
 }
 .container{
-border: 2px solid #ff0000;
-width: 960px;
-font-size:24px;
+	position: relative;
+	z-index: 1;
+	border: 2px solid #000000;
+	width: 960px;
+	font-size:24px;
 }
 .form {
-text-alagn: center;
+	text-alagn: center;
 }
 .form__input{
 	display: block;
@@ -62,3 +86,32 @@ text-alagn: center;
 	border: 0;
 	color: white;
 }
+.window{
+	width: 400px;
+	background: white;
+	border: 3px solid;
+	font-size:14px;
+	padding: 10px 4px;
+	margin: auto;
+	display: block;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+	
+.select{
+	width: 400px;
+	background: white;
+	border: 2px solid;
+	font-size:14px;
+	padding: 10px 4px;
+	margin: auto;
+	display: block;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	
+	
+	
+	
+	
+	
+	
